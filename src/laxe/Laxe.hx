@@ -15,7 +15,7 @@ var Modules: Array<ModuleParser> = [];
 var ModuleMap: Map<String, ModuleParser> = [];
 var UseHaxeClassPaths = true;
 
-final LaxePathExtension = "lx";
+final LaxePathExtension = "py";
 
 @:nullSafety(Strict)
 function AddClassPath(p: String) {
